@@ -185,6 +185,7 @@ $devices_info = array(
     array('model' => 'z3', 'name' => 'Xperia Z3', 'brand' => 'Sony'),
     array('model' => 'z3c', 'name' => 'Xperia Z3 Compact', 'brand' => 'Sony'),
     array('model' => 'z3dual', 'name' => 'Xperia Z3 Dual', 'brand' => 'Sony'),
+    array('model' => 'lettuce', 'name' => 'Yuphoria', 'brand' => 'Yu'),
 );
 
 $hardware_info = array(
@@ -434,6 +435,12 @@ $hardware_info = array(
                      'battery' => '2600 mAh',
                      'display' => '4.6 inch, 1280x720 pixel(319ppi)',
                      'cpuarch' => 'Arm'),
+    'lettuce' => array('cpu' => 'Qualcomm® Snapdragon™ 410',
+                     'ram' => '2GB of LP-DDR3',
+                     'rom' => '16GB',
+                     'battery' => '2230 mAh',
+                     'display' => '5 inch, 1280x720 pixel(219ppi)',
+                     'cpuarch' => 'Arm 64'),
 );
 
 foreach ($devices_info as $k => $val) {
