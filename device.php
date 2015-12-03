@@ -439,7 +439,7 @@ $hardware_info = array(
                      'ram' => '2GB of LP-DDR3',
                      'rom' => '16GB',
                      'battery' => '2230 mAh',
-                     'display' => '5 inch, 1280x720 pixel(219ppi)',
+                     'display' => '5 inch, 1280x720 pixel(293ppi)',
                      'cpuarch' => 'Arm 64'),
 );
 
